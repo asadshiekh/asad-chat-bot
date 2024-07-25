@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Window</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">ASAD CHAT BOT</h1>
+
+    <div class="container">
+
+        <div class="chat-container">
+            <div id="chat-window" class="chat-window">
+              <!-- Messages will be appended here -->
+            
+              <div id="loading-indicator" class="loading-indicator">
+                <div class="skeleton-loader-container">
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                  <div class="skeleton-loader skeleton-loader-line"></div>
+                </div>
+              </div>
+        
+            </div>
+            
+            <input type="text" id="message-input" placeholder="Type your message here...">
+            <button id="send-button">Send</button>
+          </div>
+
+    </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

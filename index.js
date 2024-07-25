@@ -50,7 +50,7 @@ app.post('/chat', async (req, res) => {
   }
 });
 
-// localport
+// localport12
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);

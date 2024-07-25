@@ -29,7 +29,7 @@ async function sendMessage() {
     const result = await response.json();
     
     // Log the full response for debugging
-    console.log('API Response:', result);
+    // console.log('API Response:', result);
 
     // Extract the bot response from the result property
     if (result && result.result) {
